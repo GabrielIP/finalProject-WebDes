@@ -1,0 +1,47 @@
+/*background image and color*/
+html, body {
+	background: #DDE0E5;
+    padding: 0;
+    background-image: url(http://orig01.deviantart.net/e9c4/f/2008/168/9/6/light_pattern_by_invaderjohn.png);
+}
+
+/*margins left and right are 20 pixels*/
+.ml20 { margin-left: 20px; }
+.mr20 { margin-right: 20px;}
+
+.listItem {
+	height: 30px;
+	padding-top: 10px;
+}
+
+/*highlights the selected note*/
+.selected {
+	background: #BAD2E6;
+}
+
+
+#projectannouncement {
+	margin-left: 20px;
+}
+
+#about {
+	padding-top: 5px;
+	background: #10AEE3;
+	height: 40px;
+}
+
+#aboutDropDown {
+	background: #10AEE3;
+	display: none;
+	padding-left: 20px;
+	padding-bottom: 20px;
+}
+
+#content {
+	margin-top: 30px;
+}
+
+#contentText {
+	width: 100%;
+	height: 500px;
+}
